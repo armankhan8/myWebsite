@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.education{
+    /* background-color: rgb(135, 120, 137); */
+    /* color: white; */
+    margin-top: 100px;
+    text-align: center;
+    padding: 0.1em;
+    text-decoration: underline;
+}
+
+section #schl{
+    margin: 0px;
+    color: black;
+}
+section #th{
+    color: #2b49c2;
+}
+section #courses{
+    color: black;
+}
+
+
+h2 {
+    color: #2b49c2;
+}
+
+h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
