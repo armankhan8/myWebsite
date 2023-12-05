@@ -61,6 +61,8 @@
 
         header #branding h1 span {
             color: #e74c3c;
+            text-align: center;
+            align-items: center;
         }
 
         header nav {
@@ -88,36 +90,33 @@
             transition: color 0.5s ease;
         }
 
-        /* header a#login {
-            display: inline-block;
-            padding: 5px;
-            margin-top: 10px;
-            margin-right: 10px;
-            color: #fff;
-            border: #e74c3c 1px solid;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background 0.5s ease;
-        } */
-
-        /* header a#login:hover { */
-            /* background: #e74c3c; */
-        /* } */
-
         section {
             margin: 20px 0;
         }
 
+        .main-col,
+        aside {
+            box-sizing: border-box; /* Ensure padding and border don't affect the width */
+        }
+
         .main-col {
-            /* margin-top: 20px; */
             float: left;
             width: 70%;
+            padding-right: 20px; /* Add some space between main content and aside */
         }
 
         aside {
             float: left;
-            width: 25%;
-            margin-top: 50px;
+            width: 30%;
+            text-align: center; /* Center the content inside aside */
+            margin-top: 20px; /* Adjust margin for better spacing */
+        }
+
+        aside img {
+            max-width: 100%; /* Make sure the image doesn't exceed the container width */
+            height: auto; /* Maintain the aspect ratio of the image */
+            border-radius: 8px; /* Optional: Add rounded corners to the image */
+            margin-bottom: 20px; /* Add some space below the image */
         }
 
         section h2 {
@@ -152,46 +151,45 @@
         <div id="branding">
             <h1><span>Arman Khan</span></h1>
         </div>
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="#section1">About Me</a></li>
                 <li><a href="#section2">Education</a></li>
                 <li><a href="#section3">Skills</a></li>
                 <li><a href="#section4">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
         <section id="section1">
             <div class="main-col">
                 <h2 class="highlight">About Me</h2>
-                <p>I am a college student with a passion for coding and problem-solving. Currently pursuing a degree in [B.Tech in CSE with specialization data science] at [Lloyd institute Engineering and technology]. <br> I've chosen data science because it's the perfect for me and its perfect blend of my analytical mindset and my desire to explore the world of information, allowing me to solve real-world problems using data-driven insights.This is not only reason to choose DS. The demand for skilled DATA SCIENCE In NowDAYS Highly Paying Job. thatswhy i choosed. <br>And My interest in New learning things, Travelling, reading books.<br> Eager to learn and apply my skills in real-world projects.</p>
+                <p>I am a college student with a passion for coding and problem-solving. Currently pursuing a degree in [B.Tech in CSE with specialization data science] at [Lloyd institute Engineering and technology]. <br> I've chosen data science because it's the perfect for me and its perfect blend of my analytical mindset and my desire to explore the world of information, allowing me to solve real-world problems using data-driven insights. This is not the only reason to choose DS. The demand for skilled DATA SCIENCE In Nowadays is a highly paying job. That's why I chose it. <br>And My interest in New learning things, Travelling, reading books.<br> Eager to learn and apply my skills in real-world projects.</p>
             </div>
             <aside>
-                <!-- Your profile picture can go here -->
-                <img src="WhatsApp Image 2023-06-19 at 20.08.02.jpg" width="150px">
+                <img src="WhatsApp Image 2023-06-19 at 20.08.02.jpg" alt="Arman Khan's Profile Picture">
             </aside>
         </section>
 
         <section id="section2">
             <div class="main-col">
                 <h2 class="highlight">Education</h2>
-                <p>[Lloyd institute Engineering and technology | AKTU], [B.Tech 2nd Yead CSE(DS)], [2022 - 2026]</p>
+                <p>[Lloyd institute Engineering and technology | AKTU], [B.Tech 2nd Year CSE(DS)], [2022 - 2026]</p>
             </div>
         </section>
 
         <section id="section3">
             <div class="main-col">
                 <h2 class="highlight">Skills</h2>
-                <p>- With 4 Star Hackker rank | 80+ LeetCode Solution.<br>- Proficient in C, Data Structures and Algorithms, HTML, CSS, Git & Github. <br>- Eager to expand my skill set through continuous learning and practical application.</p>
+                <p>- With 4 Star Hacker rank | 60+ LeetCode Solution.<br>- Proficient in C, Data Structures and Algorithms, HTML, CSS. <br>- Eager to expand my skill set through continuous learning and practical application.</p>
             </div>
         </section>
 
         <section id="section4">
             <div class="main-col">
                 <h2 class="highlight">Contact</h2>
-                <p>Email: armaankhan813085@gmail.com<br>Phone: 8130857008<br>LinkedIn: linkedln.com/in/arman-khan-86409b297 </p>
+                <p>Email: armaankhan813085@gmail.com<br>Phone: 8130857008<br>LinkedIn: linkedln.com/in/arman-khan-86409b297</p>
             </div>
         </section>
     </main>
