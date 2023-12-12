@@ -1,64 +1,121 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url("pexels-abdullah-ghatasheh-1631677.jpg");
-    background-color: black;
-    color: rgb(25, 117, 198);
+
+body {
+  font-family: "Poppins", sans-serif;
 }
-.brand{
-    margin-top: 10px;
-    font-style:oblique;
-    text-decoration:underline;
-    margin-left: 20px;
-    font-size: larger;
-    padding: 2em;
-    color: rgb(139, 11, 77);
-    border: 1px;
+
+p {
+  color: rgb(62, 57, 57);
+}
+
+/* SECTIONS */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
 }
 
 
-.img{
-    text-align: right;
-    margin-right: 70px;
-    border-radius: 100px;
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
 }
-.img:hover{
-    transition: 2000ms;
-    cursor: pointer;
-    transform: scale(1.11);   
-    border-radius: 100px;
-}
-.about h2{
-    text-decoration: underline;
-    margin-bottom: 30px;
-    color:chocolate;
-    font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.about h3{
-    margin-top: -10px;
-    margin-left: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
-    margin-bottom: 50px;
-}
-.container,hobby{
-    margin-top: 30px;
-    color: rgb(51, 44, 38);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-.new{
-    margin-top: 10px;
-    /* color: black; */
-    margin-left: 10px;
-}
-h3{
-    /* color: black; */
-    margin-left: 10px;
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
 }
 
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
